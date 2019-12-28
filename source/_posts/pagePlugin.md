@@ -162,7 +162,7 @@ ul {
 	line-height:1.5;
 }
 ```
-### js
+## js
 ```bash
 /**
  *  分页
@@ -358,7 +358,7 @@ if(set.num<=1){
 
 ```
 
-### 使用方法
+## 使用方法
 ```bash
  Page({
      num: pages, //页码数

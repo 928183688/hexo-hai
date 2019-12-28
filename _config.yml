@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://dianshangdanao.com
+url: www.dianshangdanao.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -113,7 +113,7 @@ deploy:
   display:
     position: right
     width: 150
-    height: 300
+    height: 150
 #    水平位置
 #    hOffset: 0
 #    垂直位置
