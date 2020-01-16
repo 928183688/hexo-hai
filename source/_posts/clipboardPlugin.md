@@ -1,6 +1,6 @@
 ---
 title: 一键复制
-cover: http://sora3.coding.me/imgs/preview/preview4.jpg
+cover: https://upload.dianshangdanao.com/201912281847368802.jpg
 ---
 ## html结构
 data-clipboard-target绑定ID即可

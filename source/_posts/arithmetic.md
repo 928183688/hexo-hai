@@ -1,5 +1,6 @@
 ---
 title: 算法学习笔记
+cover: https://upload.dianshangdanao.com/201912281848182428.jpg
 ---
 ## 数组和链表
 数组在内存中是相连的。

@@ -2,8 +2,28 @@
 title: Jquery分页插件
 cover: http://sora3.coding.me/imgs/preview/preview1.jpg
 ---
+## 计算总页数
+```js
+/**
+ * 每一页的页数
+ * @type {number}
+ */
+
+const pageSize = 10;
+
+/**
+ * 算出一共有多少页数
+ * @param totalRecord
+ * @param pageSize 默认就是上面的数量
+ * @returns {number}
+ */
+
+const getTotalPageNum (totalRecord, pageSize) => {
+    return (totalRecord + pageSize - 1) / pageSize;
+};
+```
 ## html结构
-``` bash
+```html
 <ul class="pagination" id="page">
 </ul>
 <div class="pageJump">
@@ -14,7 +34,7 @@ cover: http://sora3.coding.me/imgs/preview/preview1.jpg
 </div>
 ```
 ## css样式
-```bash
+```css
 ul {
     list-style: none;
     padding: 0;
@@ -163,7 +183,7 @@ ul {
 }
 ```
 ## js
-```bash
+```js
 /**
  *  分页
  * @param opt
@@ -359,7 +379,7 @@ if(set.num<=1){
 ```
 
 ## 使用方法
-```bash
+```js
  Page({
      num: pages, //页码数
      startnum: page, //指定页码

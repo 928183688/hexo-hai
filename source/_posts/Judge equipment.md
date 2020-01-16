@@ -1,5 +1,6 @@
 ---
 title: JS判断当前设备
+cover: https://upload.dianshangdanao.com/201912281848213571.jpg
 ---
 ```bash
    if ((navigator.userAgent.match(
